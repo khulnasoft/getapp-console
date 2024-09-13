@@ -1,0 +1,16 @@
+{
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "/console/",
+            "permanent": true
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/console/(.*)",
+            "destination": "/$1"
+        }
+    ],
+    "installCommand": "pnpm install --frozen-lockfile"
+}
